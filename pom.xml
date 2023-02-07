@@ -19,6 +19,13 @@
   </properties>
 
   <dependencies>
+  
+<dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.22</version>
+</dependency>
+
     	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 			<dependency>
 			    <groupId>org.seleniumhq.selenium</groupId>
@@ -59,16 +66,16 @@
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
-        <plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M7</version>
+        <version>3.0.0-M8</version>
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
-     </plugin>
+      </plugin>
         <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>

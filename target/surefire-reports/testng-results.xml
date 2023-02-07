@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-07T06:32:30Z" name="Suite" finished-at="2023-02-07T06:33:35Z" duration-ms="64270">
+    <groups>
+    </groups>
+    <test started-at="2023-02-07T06:32:30Z" name="Testchrome" finished-at="2023-02-07T06:33:35Z" duration-ms="64270">
+      <class name="com.actitime.test.CreatenewCustomer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.test.CreatenewCustomer@30f842ca]" started-at="2023-02-07T06:33:13Z" name="setup" finished-at="2023-02-07T06:33:14Z" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:com.actitime.test.CreatenewCustomer@30f842ca]" started-at="2023-02-07T06:33:14Z" name="enterURL" finished-at="2023-02-07T06:33:22Z" duration-ms="7765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method signature="createnewCustomer()[pri:2, instance:com.actitime.test.CreatenewCustomer@30f842ca]" started-at="2023-02-07T06:33:22Z" name="createnewCustomer" finished-at="2023-02-07T06:33:34Z" duration-ms="12446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewCustomer -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.actitime.test.CreatenewCustomer@30f842ca]" started-at="2023-02-07T06:33:34Z" name="closebrowser" finished-at="2023-02-07T06:33:35Z" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.actitime.test.CreatenewCustomer -->
+      <class name="com.actitime.test.ActitimeLoginLogout">
+        <test-method is-config="true" signature="executionstart()[pri:0, instance:com.actitime.test.ActitimeLoginLogout@dc7df28]" started-at="2023-02-07T06:32:30Z" name="executionstart" finished-at="2023-02-07T06:32:30Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executionstart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.test.ActitimeLoginLogout@dc7df28]" started-at="2023-02-07T06:32:30Z" name="setup" finished-at="2023-02-07T06:32:33Z" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:com.actitime.test.ActitimeLoginLogout@dc7df28]" started-at="2023-02-07T06:32:33Z" name="enterURL" finished-at="2023-02-07T06:32:39Z" duration-ms="6598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method signature="loginlogout()[pri:0, instance:com.actitime.test.ActitimeLoginLogout@dc7df28]" started-at="2023-02-07T06:32:39Z" name="loginlogout" finished-at="2023-02-07T06:32:47Z" duration-ms="7827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.actitime.test.ActitimeLoginLogout@dc7df28]" started-at="2023-02-07T06:32:47Z" name="closebrowser" finished-at="2023-02-07T06:32:47Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="executioncomplete()[pri:0, instance:com.actitime.test.ActitimeLoginLogout@dc7df28]" started-at="2023-02-07T06:33:35Z" name="executioncomplete" finished-at="2023-02-07T06:33:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executioncomplete -->
+      </class> <!-- com.actitime.test.ActitimeLoginLogout -->
+      <class name="com.actitime.test.DeleteCreatedCustomer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.actitime.test.DeleteCreatedCustomer@69c81773]" started-at="2023-02-07T06:32:47Z" name="setup" finished-at="2023-02-07T06:32:48Z" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="enterURL()[pri:0, instance:com.actitime.test.DeleteCreatedCustomer@69c81773]" started-at="2023-02-07T06:32:48Z" name="enterURL" finished-at="2023-02-07T06:32:54Z" duration-ms="6349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method signature="deleteCreateCustomer()[pri:1, instance:com.actitime.test.DeleteCreatedCustomer@69c81773]" started-at="2023-02-07T06:32:54Z" name="deleteCreateCustomer" finished-at="2023-02-07T06:33:13Z" duration-ms="18553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCreateCustomer -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.actitime.test.DeleteCreatedCustomer@69c81773]" started-at="2023-02-07T06:33:13Z" name="closebrowser" finished-at="2023-02-07T06:33:13Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.actitime.test.DeleteCreatedCustomer -->
+    </test> <!-- Testchrome -->
+  </suite> <!-- Suite -->
+</testng-results>
