@@ -22,7 +22,7 @@ public class DeleteCreatedCustomer extends BaseTest
 		home.clickonTaskLink();
 		
 		CustomerandProjectPage custprjpage = new CustomerandProjectPage(driver);
-		custprjpage.clickoneditbutton();
+custprjpage.clickoneditbutton();
 		
 		CustomerPage custpage = new CustomerPage(driver);
 		custpage.clickoneditbutton();

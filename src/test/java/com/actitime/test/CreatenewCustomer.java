@@ -11,7 +11,7 @@ import com.actitime.pom.TaskLinkPage;
 
 public class CreatenewCustomer extends BaseTest implements AutoConstant
 {
-	@Test (priority = 2)
+	@Test
 	public void createnewCustomer() throws IOException, InterruptedException
 	{
 		ActitimeLoginPage login = new ActitimeLoginPage(driver);

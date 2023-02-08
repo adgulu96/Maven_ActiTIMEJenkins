@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.actitime.test.ActitimeLoginLogout">
+      <class name="com.actitime.test.DeleteCreatedCustomer">
         <methods>
           <include name="executionstart"/>
           <include name="executioncomplete"/>
-          <include name="loginlogout"/>
+          <include name="deleteCreateCustomer"/>
           <include name="closebrowser"/>
           <include name="setup"/>
           <include name="enterURL"/>
         </methods>
-      </class> <!-- com.actitime.test.ActitimeLoginLogout -->
+      </class> <!-- com.actitime.test.DeleteCreatedCustomer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
